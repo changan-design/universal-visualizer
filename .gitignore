@@ -1,0 +1,19 @@
+# 前端
+node_modules/
+dist/
+*.local
+
+# 后端运行时产物（不进仓库）
+backend/data/
+backend/uploads/
+backend/generated/
+backend/exports/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 工作区
+.workbuddy/
+.DS_Store
+backend/static/
